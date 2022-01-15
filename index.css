@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Prompt&display=swap');
+
+
+html {
+  max-width:900px;
+  background-color:gray;
+  margin: 0px auto;
+}
+body {
+  max-width:900px;
+  margin: 0px 0px;
+  background-color:rgba(122, 206, 202, 0.973);
+  border-radius: 10px;
+}
+header {
+  background-color:rgb(183, 183, 226);
+  max-width:1000px;
+  font-family: Lobster, sans-serif, 'Times New Roman';
+  display:flex;
+  flex:left;
+  padding: 0px 0px;
+  border-style: solid;
+  border-radius: 10px;
+}
+h1 {
+  font-size:50px;
+}
+.text{
+  font-size:30px;
+}
+img { padding:20px;
+  padding-left:150px;
+  
+}
+a.glowr:hover {
+  color:yellow;
+  font-size:20px;
+}
+h2 {
+  font-family: Bitter, sans-serif, 'Times New Roman';
+}
+.btm-1 {
+  text-align:center;
+  background-color:rgb(183, 183, 226);
+  font-size:25px;
+  border-radius:25px;
+}
+ul li {
+  
+  padding:10px;
+  font-family: Bitter, sans-serif, 'Times New Roman';
+}
+
+footer {
+  text-align:center;
+  background-color:rgb(183, 183, 226);
+  font-family: Bitter, sans-serif, monospace;
+  border-style: solid;
+  border-radius: 10px;
+}
