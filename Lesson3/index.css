@@ -1,0 +1,168 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Pacifico&family=Yaldevi:wght@700&display=swap');
+
+body {
+    font-size: 16px;
+    margin:auto;
+}
+
+/* phone or baseline views **************************/
+/*HEADER********/
+header {
+    
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+header h1 {
+    padding: 10px;
+    font-family: Acme, sans-serif, monospace;
+    margin: 0 auto;
+    color: black;
+    font-size:50px;
+    
+}
+nav {
+    margin: 0 auto;
+    font-family: Yaldevi, sans-serif, monospace
+    background-color: #66101F;
+    text-align: center;
+    box-shadow: 0 2px 15px gray;
+
+}
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: 0.95rem;
+    background: linear-gradient(90deg, transparent, gray, transparent) top / var(--d, 0) 10px no-repeat;
+  transition: 0.5s;
+  color:black;
+  font-family: Yaldevi, sans-serif, monospace
+}
+nav a:hover {
+/* 	background-color: #bbb;
+    color: #36454f; */
+    --d: 75%;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+}
+nav a {
+    font-size: 1rem;
+}
+h1,h2 {
+    font-size: 1.1rem;
+    color: #536878;
+}
+
+
+
+/*FOOTER*/
+footer {
+    background-color: #bed;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-family: Yaldevi, sans-serif, monospace;
+    margin:0 auto;
+    margin-top:50px;
+    color: black;
+    text-align: center;
+    height: 2rem;
+}
+
+/* INDEX ********/
+main {
+    text-align:center;
+    margin: 0 auto;
+    font-family: Pacifico, sans-serif, monospace;
+}
+main h2{
+    margin-right:450px;
+}
+
+p {
+    font-family: Acme, sans-serif, monospace;
+}
+.art h2{
+    margin-right:520px;
+    
+}
+/* COLOR *****/
+.cornflower {
+    background-color:#6495ED;
+    max-width:100px;
+    margin: 0 auto;
+}
+article .blue{
+    background-color:#536878;
+    max-width:200px;
+    margin: 0 auto;
+}
+article .h2-3 {
+    background-color: #66101F;
+    max-width:200px;
+    margin: 0 auto;
+}
+article .h2-4 {
+    background-color: gray;
+    max-width:200px;
+    margin: 0 auto;
+}
+article .h2-5 {
+    background-color: white;
+    border-style: solid;
+    max-width:200px;
+    margin: 0 auto;
+}
+
+/*TYPOGRAPHY******/
+.acme {
+    font-family: Acme, sans-serif, monospace;
+}
+.yaldevi{
+    font-family: Yaldevi, sans-serif, monospace;
+}
+.pacifico {
+    font-family: Pacifico, sans-serif, monospace;
+
+}
+
+/* Tablet Views ******************************/
+@media only screen and (min-width:641px) {
+    h1 { font-size: 1.5rem;}
+/*INDEX****************/
+    
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    main picture {
+        display: block;
+    }
+    main picture img {
+        width: 100%;
+        height: auto;
+        border: 1px solid #bbb;
+    }
+}
+
+/* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+    
+    nav a {
+        font-size: 1.1rem;
+    }
+    
