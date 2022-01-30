@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Prompt&display=swap');/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+body {
+    background-color: #bbb;
+    padding: 0;
+    margin: 0;
+}
+
+/*header***************/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+}
+header {
+    background-color: #fff;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    font-family: Lobster, sans-serif, 'Times New Roman';
+}
+
+.headings h1 {
+    font-size: 50px;
+    margin: 0 0 0 17px;
+}
+
+/* NAVIGATION********/
+
+nav button {
+    margin: .2rem 2%;
+    background-color: #ccc;
+    border: none;
+    font-size: 1.6rem;
+    display:flex;
+    justify-content:flex-end;
+}
+
+nav {
+    background-color: #ccc;
+    font-family: Kanit, sans-serif, monospace;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color:#536878;
+
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    border-top: solid black;
+    color:white;
+
+}
+
+.one {
+    background-color: pink;
+    color: black;
+}
+
+nav ul li a:hover {
+    background-color: green;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+nav .open {
+    display: none;
+}
+span:nth-child(1){
+    display:block;}
+span:nth-child(2){
+        display:none;
+    }
+
+.open span:nth-child(1){
+    display:none;}
+.open span:nth-child(2){
+    display:block;}
+/*CONTENT*********/
+
+main {
+    margin: 20px auto;
+    font-family: Pacifico, sans-serif, monospace;
+    border-style: solid;
+    text-align: center;
+    padding: 50px 0 50px 0;
+    font-family: Bitter, sans-serif, monospace;
+}
+
+.main1 {
+    text-align: center;
+    margin-top:2px;
+}
+
+.m {
+    font-style: italic;
+    letter-spacing: 1pt;
+    color: forestgreen;
+    margin:  0 20px 0px;
+    padding: 0px;
+    font-size: .9rem;
+}
+.main3 .box {
+    background-color: blue;
+    margin: 10px 20px;
+    padding:50px;
+}
+.main3 { 
+    padding:20px 20px;
+}
+.update {
+    margin-top: -20px;
+}
+footer {
+    background-color: #bed;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    font-family: Bitter, sans-serif, monospace;
+    margin: 0;
+    color: black;
+    padding:0px;
+}
+footer img {
+    height:200px;
+}
+footer .f {
+    margin-bottom: 5px;
+    font-size:20px;
+    font-family: Lobster, 'sans-serif', 'Times New Roman';
+}
+footer q {
+    margin-bottom:0px;
+    
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+
