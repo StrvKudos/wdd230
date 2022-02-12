@@ -4,7 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Prompt&display=swap');/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
 html {
     -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    
 }
 body {
     background-color: #bbb;
@@ -107,9 +108,10 @@ div {
     margin-top:0px;
     text-align:center;
     font-size:21px;
-    background-color:gray;
     font-family:Lobster, sans-serif, 'Times New Roman';
+    list-style-type: none;
 }
+
 
 .pop {
     margin-top:0px;
@@ -130,22 +132,37 @@ main {
     text-align: center;
     padding: 50px 0 50px x0;
     font-family: Bitter, sans-serif, monospace;
+
 }
 
 .main1 {
     text-align: center;
     margin-top:2px;
-    background-image: url("../img-1/background.jpg");
-   max-height:300px;
+   max-height:700px;
    background-size:1200px 300px;
    background-size:100%;
+   position:relative;
 }
+
 main .mainh1 {
     font-size:30px;
     color:white;
     font-family: Bitter, sans-serif, monospace;
 }
-
+.main1 h1{
+    position:absolute;
+    text-align:center;
+    margin-top:100px;
+    margin-left:50px;
+    color:black;
+}
+.main .mainh2 {
+    position:absolute;
+}
+picture img {
+    max-height:100px;
+    max-width:100%
+}
 .main8 {
     background-color:#5F9EA0;
 }
@@ -180,7 +197,8 @@ main .mainh2 {
     background-color:green;
     max-width:200px;
     text-align:center;
-    margin: 0 auto;
+    margin-top:180px;
+    margin-left:180px;
     box-shadow:3px 3px;
 }
 .main3 .box {
@@ -194,8 +212,9 @@ div .main3 {
     font-size:20px;
     background-color:#E49B0F;
     text-align: center;
-    max-height:350px;
+    max-height:400px;
     margin:0 auto;
+    list-style-type: none;
     
 }
 .main3 p{
@@ -205,6 +224,7 @@ div {
     display:flex;
     flex-direction:column;
     padding-bottom:20px;
+
  
 }
 .main4 {
@@ -296,4 +316,34 @@ p {
     margin: 0;
     padding: 0;
 }
+/**Weather***/
+.main3 {
+    position:relative;
+}
+.summary-tags {
+    text-align: right;
+    margin-left:-30px;
+    position:absolute;
 
+
+}
+
+.summary-info{
+    position:absolute;
+    text-align: left;
+    color:white;
+    text-shadow: 0 0 30px white;
+  margin-left:80px;
+    
+}
+.card-1 {
+    margin-top:2px;
+    
+}
+.card-1-2 {
+    padding: 0.8rem;
+    overflow: hidden;
+}
+.container ul {
+    list-style-type: none;
+}

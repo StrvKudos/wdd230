@@ -1,6 +1,6 @@
 /* Desktop Views ****************************/
 
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 75em) {
 section {
     display:grid;
     grid-template-columns: 400px auto;
@@ -8,8 +8,8 @@ section {
     column-gap:10px;
     row-gap:10px;
 }
-header {
-    
+html {
+    max-width:100%;
 }
 .pop {
     text-align:center;
@@ -20,7 +20,6 @@ header {
     margin-left:100px;
     opacity:.8;
 }
-
 .main1{
     grid-column:2/4;
     grid-row:1/3;
@@ -34,6 +33,7 @@ header {
 
 div .main3{
     margin:50px auto;
+   
 
 }
 div .main2{
@@ -45,7 +45,7 @@ div .main2{
 
 }
 div .main3{
-    height:500px;
+    height:700px;
     max-width:300px;
     word-wrap: break-word;
     padding:0px;
@@ -99,4 +99,52 @@ div {
     height:800px;
     background-color:blue;
 }
+/****Weather**/
+.main3 {
+    position:relative;
+}
+.main3 img {
+    margin-top:-20px;
+}
+.card-1 {
+    margin-top:-0px;
+}
+.summary-tags {
+    text-align: right;
+    margin-left:-20px;
+    position:absolute;
+    margin-top:-30px;
 
+}
+
+.summary-info{
+    position:absolute;
+    text-align: left;
+    color:white;
+    text-shadow: 0 0 30px white;
+  margin-left:100px;
+  margin-top:-30px;
+
+    
+}
+main .mainh2 {
+    font-size:20px;
+    background-color:green;
+    max-width:200px;
+    text-align:center;
+    margin-top:180px;
+    margin-left:180px;
+    box-shadow:3px 3px;
+}
+.main1 .mainh1{
+position:absolute;
+text-align:center;
+margin-top:80px;
+margin-left:50px;
+color:black;
+font-size:40px;
+}
+picture img {
+    height:100%;
+    max-width:100%
+}

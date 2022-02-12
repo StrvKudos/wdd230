@@ -1,0 +1,102 @@
+/* Tablet Views ******************************/
+@media only screen and (min-width: 37.5em) {
+
+
+
+    nav {
+        margin: 0 auto;
+        font-family: Kanit, sans-serif, monospace;
+        background-color: #536878;
+    }
+    main {
+        margin: 20px auto;
+        box-shadow: 0 0 30px black;
+        text-align: center;
+        padding: 50px 0 50px 0;
+        font-family: Bitter, sans-serif, monospace;
+    }
+    .main1 {
+        text-align: center;
+        margin: 0px auto;
+        
+    }
+    nav button {
+        display:none;
+    }
+    nav ul.hide {
+        display:block;
+    }
+    nav ul {
+        margin-left:2%;
+    }
+    nav ul li {
+        float:left;
+    }
+    nav ul li a {
+        display: block;
+        text-align:center;
+        border:none;
+        border-right:1px solid rgba(0,0,0,0.3);
+        padding:.8rem 1.70rem  ;
+    }
+    }
+
+
+
+
+    /* *Main*******/
+    .main3 {
+        margin-left:50px;
+        width:500px;
+        height:500px;
+    }
+    div {
+        display:flex;
+    }
+    .main5{
+        width:400px;
+        margin:20px auto;
+    
+        
+    }
+    .main6{
+        width:400px;
+        margin:20px auto;
+    
+        
+    }
+    footer {
+        background-color: #bed;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px ;
+        margin: 0 auto;
+        color: black;
+        font-family: Bitter, sans-serif, monospace;
+    }
+    .update {
+        margin-top:-20px;
+    }
+
+    main .mainh2 {
+        font-size:20px;
+        background-color:green;
+        max-width:200px;
+        text-align:center;
+        margin-top:180px;
+        margin-left:350px;
+        box-shadow:3px 3px;
+    }
+    .main1 .mainh1{
+    position:absolute;
+    text-align:center;
+    margin-top:100px;
+    margin-left:250px;
+    color:black;
+}
+picture img {
+    max-height:100%;
+    max-width:100%
+}

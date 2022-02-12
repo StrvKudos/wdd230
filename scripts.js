@@ -4,4 +4,4 @@ function toggleMenu(){
 }
 
 const x = document.getElementById('hamburgerbtn');
-x.onlick = toggleMenu;
+x.onlick = toggleMenu; 
