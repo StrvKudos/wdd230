@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Prompt&display=swap');/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    
+}
+body {
+    background-color: #bbb;
+    padding: 0;
+    margin: 0;
+}
+
+/*header***************/
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+}
+header {
+    background-color: #fff;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.headings {
+    display: flex;
+    flex-direction: column;
+    font-family: Lobster, sans-serif, 'Times New Roman';
+}
+
+.headings h1 {
+    font-size: 50px;
+    margin: 0 0 0 17px;
+}
+
+/* NAVIGATION********/
+
+nav button {
+    margin: .2rem 2%;
+    background-color: #ccc;
+    border: none;
+    font-size: 1.6rem;
+    display:flex;
+    justify-content:flex-end;
+}
+
+nav {
+    background-color: #ccc;
+    font-family: Kanit, sans-serif, monospace;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color:#536878;
+
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 0px;
+    text-decoration: none;
+    border-bottom: solid #71797E;
+    border-top: solid #71797E;
+    color:white;
+
+}
+
+.one {
+    background-color: pink;
+    color: black;
+}
+
+nav ul li a:hover {
+    background-color: green;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+nav .open {
+    display: none;
+}
+span:nth-child(1){
+    display:block;}
+span:nth-child(2){
+        display:none;
+    }
+
+.open span:nth-child(1){
+    display:none;}
+.open span:nth-child(2){
+    display:block;}
+
+div {
+    margin-top:0px;
+    text-align:center;
+    font-size:21px;
+    font-family:Lobster, sans-serif, 'Times New Roman';
+    list-style-type: none;
+}
+
+
+.pop {
+    margin-top:0px;
+    text-align:center;
+    font-size:21px;
+    background-color:blue;
+    font-family:Lobster, sans-serif, 'Times New Roman';
+    overflow: auto;
+}
+
+/*CONTENT*********/
+
+main {
+    margin: 20px auto;
+    font-family: Pacifico, sans-serif, monospace;
+    border-style: none;
+    box-shadow: 0 0 30px black;
+    text-align: center;
+    padding: 50px 0 50px x0;
+    font-family: Bitter, sans-serif, monospace;
+
+}
+
+.main1 {
+    text-align: center;
+    margin-top:2px;
+   max-height:700px;
+   background-size:1200px 300px;
+   background-size:100%;
+   position:relative;
+}
+
+main .mainh1 {
+    font-size:30px;
+    color:white;
+    font-family: Bitter, sans-serif, monospace;
+}
+.main1 h1{
+    position:absolute;
+    text-align:center;
+    margin-top:100px;
+    margin-left:50px;
+    color:black;
+}
+.main .mainh2 {
+    position:absolute;
+}
+picture img {
+    max-height:100px;
+    max-width:100%
+}
+.main8 {
+    background-color:#5F9EA0;
+}
+.main8 h1 {
+    font-size:20px;
+    background-color:yellow;
+    max-width:200px;
+    text-align:center;
+    margin: 0 auto 10px;
+    box-shadow:3px 3px;
+}
+.main2 {
+    background-color:#E49B0F;
+    max-width:500px;
+    max-height:100%;
+}
+.main2 h1 {
+    font-size:20px;
+    background-color:yellow;
+    max-width:200px;
+    text-align:center;
+    margin: 0 auto;
+    box-shadow:3px 3px;
+}
+.main2 p {
+    font-size:20px;
+    margin-top:20px;
+    word-wrap: break-word;
+}
+main .mainh2 {
+    font-size:20px;
+    background-color:green;
+    max-width:200px;
+    text-align:center;
+    margin-top:180px;
+    margin-left:180px;
+    box-shadow:3px 3px;
+}
+.main3 .box {
+    background-color:#E49B0F;
+    margin: 10px 20px;
+    padding:50px;
+}
+div .main3 { 
+    padding:20px 20px;
+    max-width:300px;
+    font-size:20px;
+    background-color:#E49B0F;
+    text-align: center;
+    max-height:400px;
+    margin:0 auto;
+    list-style-type: none;
+    
+}
+.main3 p{
+    text-align:center;
+}
+div {
+    display:flex;
+    flex-direction:column;
+    padding-bottom:20px;
+
+ 
+}
+.main4 {
+    background-color:#E49B0F;
+}
+.main4 h1 {
+    font-size:20px;
+    background-color:yellow;
+    max-width:200px;
+    text-align:center;
+    margin: 0 auto;
+    box-shadow:3px 3px;
+}
+.main4 p {
+    font-size:20px;
+    margin-top:20px;
+    word-wrap: break-word;
+}
+.main5{
+    max-width:500px;
+    margin:20px auto;
+    background-color:#E49B0F;
+    
+}
+div .main6{
+    max-width:500px;
+    max-height:400px;
+    margin:20px auto;
+    background-color:#E49B0F;
+}
+.main9 {
+    max-width:500px;
+    max-height:400px;
+    margin:20px auto;
+    background-color:#E49B0F;
+    box-shadow: 0 0 30px black;
+}
+.main9 p {
+    font-size:20px;
+    word-wrap: break-word;
+}
+.m {
+    font-style: italsc;
+    letter-spacing: 1pt;
+    color: rgb(15, 20, 15);
+    margin:  0 20px 0px;
+    padding: 0px;
+    font-size: .9rem;
+}
+a {
+    color:green;
+}
+.title2 {
+    color:white;
+    text-shadow: 0 0 30px white;
+}
+
+
+
+
+.update {
+    margin-top: -20px;
+}
+footer {
+    background-color: #bed;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    font-family: Bitter, sans-serif, monospace;
+    margin: 0;
+    color: black;
+    padding:0px;
+}
+footer img {
+    height:200px;
+}
+footer .f {
+    margin-bottom: 5px;
+    font-size:20px;
+    font-family: Lobster, 'sans-serif', 'Times New Roman';
+}
+footer q {
+    margin-bottom:0px;
+    
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+/**Weather***/
+.main3 {
+    position:relative;
+}
+.summary-tags {
+    text-align: right;
+    margin-left:-30px;
+    position:absolute;
+
+
+}
+
+.summary-info{
+    position:absolute;
+    text-align: left;
+    color:white;
+    text-shadow: 0 0 30px white;
+  margin-left:80px;
+    
+}
+.card-1 {
+    margin-top:2px;
+    
+}
+.card-1-2 {
+    padding: 0.8rem;
+    overflow: hidden;
+}
+.container ul {
+    list-style-type: none;
+}
+img {
+    height:500px;
+    width:800px;
+}
+.gallery-cap{
+    font-size:50px;
+}
+.page-title {
+    font-size:80px;
+}
