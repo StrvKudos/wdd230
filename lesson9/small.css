@@ -212,4 +212,36 @@ div {
 .park-img{
     height:500px;
     width:400px;
-}}
+}
+/***FOOTER***/
+
+
+footer {
+    background-color: #bed;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    font-family: Bitter, sans-serif, monospace;
+    margin: 0;
+    color: black;
+    padding:0px;
+}
+footer img {
+    height:200px;
+}
+footer .f {
+    margin-bottom: 5px;
+    font-size:20px;
+    font-family: Lobster, 'sans-serif', 'Times New Roman';
+}
+footer q {
+    margin-bottom:0px;
+    
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+}
