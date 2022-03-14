@@ -348,3 +348,13 @@ p {
 .container ul {
     list-style-type: none;
 }
+
+/***WEEK10****/
+div .text-box-small {
+    color:white;
+    line-height:0px;
+    margin-top:-30px;
+}
+div .text-box-small h3 {
+    margin-top:8px;
+}
