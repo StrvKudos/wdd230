@@ -1,1 +1,4 @@
-let pop = document.getElementsByClassName("pop");
+if (todaysdate != "Monday" && "Tuesday") {
+    document.querySelector('#banner').style.display = "none";
+    }
+   

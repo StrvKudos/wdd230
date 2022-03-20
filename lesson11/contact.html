@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Fill Me In">
+    <meta name="author" content="John Doe">
+
+    <!-- This start file was build by Paul Cheney  -->
+    <title>HTML5 Start Site by Paul Cheney</title>
+
+    <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" href="../img-1/favicon.ico">
+
+
+
+    <!-- STYLE SHEETS -->
+    <link href="../lesson9/medium.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="../lesson11/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="../lesson9/large.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+   
+
+
+</head>
+
+<body>
+    <!-- HEADER HERE -->
+    <header>
+
+        <img src="../img-1/chamber.jpg" style="width:100px;height:100px;" alt="Weather logo">
+        <section class="headings">
+            
+            <h1>Harvey's Chamber of Commerce</h1>
+            <q class="m">We all can connect</q>
+        </section>
+        <div class="pop">
+            <h1> Come Join Us
+            </h1>
+            <p>"🤝🏼 The chamber meet and greet Wednesday at 7:00 p.m."</p>
+        </div>
+    </header>
+    
+
+
+    <!-- NAVIGATION HERE -->
+    <nav class="clearfix" id="hamburgerbtn">
+        <button onclick="toggleMenu()"> <span>&#9776;</span><span>X</span></button>
+        <ul id="sally">
+            <li><a href="../lesson11/index.html">Home</a></li>
+            <li class="one"><a href="../lesson11/discover.html">Discover</a></li>
+            <li><a href="../lesson11/directory.html">Directory</a></li>
+            <li><a href="../lesson11/join.html">Join</a></li>
+            <li><a href="../lesson11/contact.html">Contact</a></li>
+        </ul><br>
+        
+    </nav>
+    <div id="time" ></div>
+<div class="contact-information">
+    <div class="ci-text">
+        <h3 class="ci-head">Contact Information</h3>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16011005.384541586!2d113.57908740533652!3d11.556384075323246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x324053215f87de63%3A0x784790ef7a29da57!2sPhilippines!5e0!3m2!1sen!2sph!4v1647784173348!5m2!1sen!2sph" width="1400" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>">
+</div>
+<div class="numbers">
+<div class="visit-us">
+    <h1>Visit Us </h1>
+<p>Sta.Lucia Mall</p>
+<p>123 Rizal St. #1100</p>
+<p>Cainta, Rizal PH</p>
+
+<p></p>
+<p></p>
+</div>
+
+
+<div class="visit-us"><h1 >Contact </h1>
+    <p>Harvey Sagario</p>
+    <p>The Admin</p>
+    <p>09533129604</p>
+    
+    <p>Rojean De Jose</p>
+    <p>The secretary</p>
+    <p>09533232323</p>
+
+    <p>Harold Sagario</p>
+    <p>Tour</p>
+    <p>09533232323</p>
+</div>
+
+
+</div>
+<form>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label class="top">Fist name*</label>
+        <input type="text" name="fname" required>
+        <label class="top">Last name*</label>
+        <input type="text" name="fname" required>
+        <label class="top">Position*</label>
+        <input type="text" name="fname" required>
+        <label class="top">Email*</label>
+        <input type="email" placeholder="juan@gmail.com" name="email" required>
+        <label class="top">Phone Number</label>
+        <input type="text" placeholder="09XXXXXXXXX" name="phone">
+        
+    </fieldset>
+    <fieldset>
+        <legend>Membership Level</legend>
+        <label class="top">Business name</label>
+        <input type="text" name="Business Name" >
+        <label class="top" for="list">Type of membership</label>
+        <input list="lists" id="list" name="list" />
+
+        <datalist id="lists">
+            <option value="NP Membership">
+            <option value="Bronze Membership">
+            <option value="Silver Membership">
+            <option value="Gold Membership">
+    
+        </datalist>
+        
+    </label>
+    </fieldset>
+
+    <fieldset>
+        <legend>Business Description</legend>
+        <textarea type="text" name="info"   rows="18" cols="100%"></textarea>
+        <input type="submit" value="Report business" class="submitBtn">
+    </fieldset>
+
+    
+    
+</form>
+<footer>
+    <img src="../img-1/chamber.jpg" style="width:100px;height:100px;" alt="Weather logo">
+    <p>
+        <h1 class="f">Harvey's Chamber of Commerce</h1>
+        <q class="m">We all can connect</q>
+        <h5> Fall @2021 | Harvey Sagario | Philippines | BYU Online</h5>
+        <h6 class="update"> </h6>
+    </p>
+</footer>
+
+<script src="../scripts.js"></script>
+<script src="../index.js"></script>
+<script src="../lesson6/pop.js"></script>
+<script src="../lesson6/windchill.js"></script>
+ <script src="../lesson10/preston-weather.js"></script>
+ 
+    
+</body>

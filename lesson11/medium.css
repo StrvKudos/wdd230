@@ -1,0 +1,36 @@
+@media only screen and (min-width: 650px) {
+
+.divs {
+    display:flex;
+}
+
+.main5{
+    background-color:#E49B0F;
+    padding:5px;
+    
+}
+.main5 h1 {
+ 
+}
+.main6{
+    background-color:#E49B0F
+}
+.main6 h1 {
+}
+.main9 {
+    background-color:#E49B0F;
+    box-shadow: 0 0 30px black;
+    grid-column: 1/4;
+    grid-row: 2/4;
+    
+
+    
+}
+.main9 h1 {
+   
+}
+.main9 p {
+    font-size:20px;
+    word-wrap: break-word;
+}
+}

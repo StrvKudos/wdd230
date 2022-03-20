@@ -39,7 +39,7 @@ fetch(apiURL)
         document.getElementById("wind-chill").innerHTML=`Wind Chill: ${windChill}&#8457;`;
     });
     //Fetch forecast url
-    fetch(forecastUrl) 
+    fetch(forecastUrl)
     .then((response) => response.json())
     .then((jsObject) => {
         console.log(jsObject);

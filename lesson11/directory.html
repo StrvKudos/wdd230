@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Fill Me In">
+    <meta name="author" content="John Doe">
+
+    <!-- This start file was build by Paul Cheney  -->
+    <title>HTML5 Start Site by Paul Cheney</title>
+
+    <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" href="../img-1/favicon.ico">
+
+
+
+    <!-- STYLE SHEETS -->
+    <link href="../lesson9/medium.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="../lesson9/small.css" rel="stylesheet">
+    <!-- enhance-tablet -->
+    <link href="../lesson9/large.css" rel="stylesheet">
+    <!-- enhance-desktop -->
+   
+
+
+</head>
+
+<body>
+    <!-- HEADER HERE -->
+    <header>
+
+        <img src="../img-1/chamber.jpg" style="width:100px;height:100px;" alt="Weather logo">
+        <section class="headings">
+            
+            <h1>Harvey's Chamber of Commerce</h1>
+            <q class="m">We all can connect</q>
+        </section>
+        <div class="pop">
+            <h1> Come Join Us
+            </h1>
+            <p>"🤝🏼 The chamber meet and greet Wednesday at 7:00 p.m."</p>
+        </div>
+    </header>
+    
+
+
+    <!-- NAVIGATION HERE -->
+    <nav class="clearfix" id="hamburgerbtn">
+        <button onclick="toggleMenu()"> <span>&#9776;</span><span>X</span></button>
+        <ul id="sally">
+            <li><a href="../lesson11/index.html">Home</a></li>
+            <li class="one"><a href="../lesson11/discover.html">Discover</a></li>
+            <li><a href="../lesson11/directory.html">Directory</a></li>
+            <li><a href="../lesson11/join.html">Join</a></li>
+            <li><a href="../lesson11/contact.html">Contact</a></li>
+        </ul><br>
+        
+    </nav>
+    <div id="time" ></div>
+
+<!-- CONTENT HERE -->
+<main>
+    <div class="d-view">
+        <img onclick="" id="grid_view" src="../lesson9/images/grid-view.png" alt="grid view" style="width:50px;height:50px;" style>
+        <img onclick="" id="list_view" src="../lesson9/images/list-view.png" alt="list view" style="width:50px;height:50px;">
+    </div>
+    
+    <div class= "directory-grid">
+        <!-- Javascript content here -->
+    </div>
+    
+
+</main>
+    
+<!-- FOOTER HERE -->   
+ 
+   <footer>
+    <img src="../img-1/chamber.jpg" style="width:100px;height:100px;" alt="Weather logo">
+    <p>
+        <h1 class="f">Harvey's Chamber of Commerce</h1>
+        <q class="m">We all can connect</q>
+        <h5> Fall @2022 | Harvey Sagario | Philippines | BYU Online</h5>
+        <h6 class="update"> </h6>
+    </p>
+</footer>
+<script src="../lesson9/directory.js"></script>
+<script src="../lesson9/d-view.js"></script>
+<script src="../lesson9/business.json"></script>
+<script src="../scripts.js"></script>
+<script src="../index.js"></script>
+
+
+</body>
+
+</html>
