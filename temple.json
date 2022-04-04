@@ -1,0 +1,104 @@
+{
+    "towns": [
+      {
+        "temple": "Manila Temple",
+        "address": "Quezon City, Metro Manila, Philippines",
+        "telephone": "(63) 2-8635-9111",
+        "email": "https://www.churchofjesuschrist.org/temples/details/manila-philippines-temple?lang=eng",
+        "services":["Clothing rental available",
+        "No cafeteria available",
+        "No patron housing available",
+        "Distribution center nearby"],
+        "history": [
+            "1 April 1981 Announced",
+            "25 August 1982 Groundbreaking",
+            "25 September 1984 Dedicated — dedicatory prayer"
+        ],
+        "ordinanceSchedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+        "templeClosure":  [
+            "1 April 1981 Announced",
+            "Saturday, 9 April 2022",
+            "Monday, 1 August 2022 - Monday, 1 August 2022",
+            "Saturday, 8 October 2022",
+            "Saturday, 24 December 2022",
+            "Saturday, 31 December 2022"
+        ]
+      },
+      {
+        "temple": "Cebu Temple",
+        "address": "Cebu City, Cebu, Philippines",
+        "telephone": "(63) 32-230-1207",
+        "email": "https://www.churchofjesuschrist.org/temples/details/manila-philippines-temple?lang=eng",
+        "services":["Clothing rental available",
+        "No cafeteria available",
+        "No patron housing available",
+        "Distribution center nearby"],
+        "history": [
+            "18 April 2006 Announced",
+            "14 November 2007 Groundbreaking",
+            "13 June 2010 Dedicated — dedicatory prayer"
+        ],
+        "ordinanceSchedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+        "templeClosure":  [
+            "Monday, 15 August 2022 - Monday, 24 October 2022",
+            "Saturday, 24 December 2022",
+            "Saturday, 31 December 2022"
+        ]
+      },
+      {"temple": "Hongkong Temple",
+        "address": "2 Cornwall St
+        Kowloon Tong
+        Kowloon City, Hong Kong",
+        "telephone": "(63) 2-8635-9111",
+        "email": "https://www.churchofjesuschrist.org/temples/details/manila-philippines-temple?lang=eng",
+        "services":["No cafeteria available",
+        "No cafeteria available",
+        "No patron housing available",
+        "No distribution center nearby"],
+        "history": [
+            "3 October 1992
+            Announced",
+            "22 January 1994
+            Groundbreaking",
+            "26 May 1996
+            Dedicated — dedicatory prayerr"
+        ],
+        "ordinanceSchedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+        "templeClosure":  [
+            "1 April 1981 Announced",
+            "Saturday, 9 April 2022",
+            "Monday, 1 August 2022 - Monday, 1 August 2022",
+            "Saturday, 8 October 2022",
+            "Saturday, 24 December 2022",
+            "Saturday, 31 December 2022"
+        ]
+      },
+      {
+        "temple": "Fukuola Japan Temple",
+        "address": "Fukuoka-shi, Fukuoka, Japan",
+        "telephone": "(81) 92-525-8255",
+        "email": "https://www.churchofjesuschrist.org/temples/details/manila-philippines-temple?lang=eng",
+        "services":["No clothing rental available
+        ",
+        "No cafeteria available",
+        "No patron housing available",
+        "No distribution center nearby"],
+        "history": [
+            "7 May 1998
+            Announced",
+            "20 March 1999
+            Groundbreaking",
+            "11 June 2000
+            Dedicated — dedicatory prayer"
+        ],
+        "ordinance Schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+        "temple Closure":  [
+            "Monday, 1 August 2022 - Wednesday, 30 November 2022",
+            "Saturday, 24 December 2022",
+            "Friday, 30 December 2022 (Limited Operations)",
+            "Saturday, 31 December 2022"
+        ]
+      }
+   
+    ]
+  }

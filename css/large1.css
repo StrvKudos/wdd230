@@ -1,0 +1,246 @@
+@media only screen and (min-width: 800px) {
+  
+    body {
+      max-width: 1700px;
+      min-width: 800px;
+      margin: auto;
+    }
+     
+    /*----------- HEADER-------*/
+    .tilogo {
+      width: 125px;
+    }
+    
+    .headertext{
+      width: 70%;
+    }
+    
+    .headertext > h1 {
+      font-size: 35px;
+    }
+    
+    #timotto {
+      font-size: 20px;
+    }
+    
+    /*----------- NAV MENU-------*/
+    nav {
+      max-width: 1700px;
+      margin: auto;
+    }
+    
+    nav button {
+    display: none;
+    }
+    
+    .hide {
+      display: flex;
+      flex-direction: row;
+      font-size: 22px;
+    }
+    
+    li {
+      margin-right: 30px;
+    }
+    
+    li a {
+      display: block;
+      padding: 10px 33px;
+    }
+    
+    /*----------- MAIN -------*/
+    main {
+        background-color: white;
+        display: block;
+        align-items: center;
+        max-width: 100%;
+      }
+    
+    /*----------- BANNER SECTION -------*/
+      .hbannerImage {
+        margin: 0;
+      }
+      .hbannerImage > img {
+        width: 100%;
+      }
+      
+    /*----------- WELCOME TEXT -------*/
+    .welcomeData > h2 {
+      text-align: left;
+      padding: 1% 1% 1% 5%;
+    }
+    #welcomeText {
+      color: orange;
+      line-height: 1.5rem;
+      font-style: italic;
+      padding: 5%;
+    }
+    
+    /*----------- TEMPLE DATA -------*/
+    .locations > h3 {
+      text-align: left;
+      padding: 1% 1% 1% 5%;
+    }
+    
+    .aLocation {
+      max-width: 180px;
+      position: relative;
+      margin-bottom: -15%;
+    }
+    
+    .locations {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .templesgrid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      width: 90%;
+      margin: 5%;
+    }
+    .cityTemple > img {
+      margin-top: -34%;
+      width: 100%;
+    }
+    
+    .cityinfo {
+      margin-top: -38%;
+      padding: 2%;
+      font-size: 14px;
+      max-width: 180px;
+    }
+    
+    /*----------- ACTIVITY DATA -------*/
+    .activities > h3 {
+      text-align: left;
+      padding: 1% 1% 1% 5%;
+    }
+    
+    .activitiesTemple {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      width: 90%;
+      margin: 5%;
+    }
+    
+    .activityInfo {
+      font-size: 14px;
+    }
+    
+    .activity > img {
+      width: 100%;
+      margin-bottom: -5%;
+    }
+    /*----------- FOOTER -------*/
+    .content {
+      display: grid;
+      grid-template-columns: .8fr 1fr; 
+      margin: 0 5% 0 5%;
+    }
+    
+    #templeinnMap {
+      width: 100%;
+      padding: 5%;
+    }
+    
+    .footer-bar {
+      font-size: 20px;
+    }
+    
+    /*-------- TEMPLES PAGE ------*/
+    
+    /*-- Temple Info Section -- */
+    .templeLocations {
+      display: flex;
+      flex-direction: column;
+      margin: 0%;
+    }
+    
+    .allTemples {
+      display: flex;
+      flex-direction: column;
+      margin: 2%;
+    }
+    
+    .cityTemple > img {
+      width: 96%;
+      max-height: 74%;
+      margin: 2% 2% 0 2%;
+    }
+    
+    .templeInfo {
+      font-size: 16px;
+      margin: 4% 0 1% 0;
+      width: 100%;
+      max-height: 74%;
+    }
+    
+    .templegoodGrid {
+      display: grid;
+      grid-template-columns: auto  auto auto;
+      margin: 2%;
+    }
+    
+    .brighamcityIndex, .columbuscityIndex, .oquirrhcityIndex, .twinfallscityIndex {
+      margin-bottom: -15%;
+      margin-top: 4%;
+    }
+    
+    /*-------- RESERVATIONS PAGE ------*/
+    .reserveForm {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 5% 25%;
+    }
+    
+    /*-------- SERVICES PAGE ------*/
+    .allServices {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 2%;
+    }
+    .servicesgoodGrid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 2%;
+      margin-bottom: 10%;
+    }
+    
+    .serveGrid > img {
+     max-height: 244px; 
+    }
+    
+    #titleGrid {
+      margin-bottom: -15%;
+    }
+    
+    @media only screen and (min-width: 1000px) {
+      #titleGrid {
+        margin-bottom: -13%;
+      }
+    }
+    
+    @media only screen and (min-width: 1250px) {
+      #titleGrid {
+        margin-bottom: -11%;
+      }
+    }
+    
+    /*------CONTACT US PAGE ----*/
+    
+    .addressData {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    #tiMap {
+      width: 96%;
+      margin: 2%;
+    }
+    
+    
+    }
