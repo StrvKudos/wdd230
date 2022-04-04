@@ -48,21 +48,17 @@
       {"temple": "Hongkong Temple",
         "address": "2 Cornwall St
         Kowloon Tong
-        Kowloon City, Hong Kong",
+        Kowloon City Hong Kong",
         "telephone": "(63) 2-8635-9111",
         "email": "https://www.churchofjesuschrist.org/temples/details/manila-philippines-temple?lang=eng",
         "services":["No cafeteria available",
         "No cafeteria available",
         "No patron housing available",
         "No distribution center nearby"],
-        "history": [
-            "3 October 1992
-            Announced",
-            "22 January 1994
-            Groundbreaking",
-            "26 May 1996
-            Dedicated — dedicatory prayerr"
-        ],
+        "history":[
+            "3 October 1992  Announced",
+            "22 January 1994 Groundbreaking",
+            "26 May 1996 Dedicated — dedicatory prayer" ],
         "ordinanceSchedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
         "templeClosure":  [
             "1 April 1981 Announced",
@@ -78,18 +74,14 @@
         "address": "Fukuoka-shi, Fukuoka, Japan",
         "telephone": "(81) 92-525-8255",
         "email": "https://www.churchofjesuschrist.org/temples/details/manila-philippines-temple?lang=eng",
-        "services":["No clothing rental available
-        ",
+        "services":["No clothing rental available",
         "No cafeteria available",
         "No patron housing available",
         "No distribution center nearby"],
         "history": [
-            "7 May 1998
-            Announced",
-            "20 March 1999
-            Groundbreaking",
-            "11 June 2000
-            Dedicated — dedicatory prayer"
+            "7 May 1998 Announced",
+            "20 March 1999 Groundbreaking",
+            "11 June 2000 Dedicated — dedicatory prayer"
         ],
         "ordinance Schedule": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
         "temple Closure":  [
