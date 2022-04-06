@@ -1,0 +1,62 @@
+@media only screen and (min-width: 1024px) {
+
+
+    nav ul {
+        display:flex;
+        list-style-type: none;
+        padding: 0;
+        max-width:1600px;
+        margin:0 0% 0px;
+        
+    }
+    
+    nav ul li a {
+        margin:0px 5px;
+        width:250px;
+        
+    
+    }
+/**TEMPLE***/
+
+section {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.jpn_temple {
+    grid-template-columns: 2/3;
+    grid-template-rows:2/3 ;
+}
+
+.temples img {
+    width:100%;
+}
+
+}
+
+.background-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 30px;
+    height: 300px;
+    text-align: left;}
+
+/**CONTACT ***/
+#home {
+    margin: 0 200px;
+}
+
+.contact-information{
+    display: grid;
+    width:100%;
+    max-width:1200px;
+    margin: 0 auto;
+   
+}
+.ci-text{
+    width: 100%;
+    padding-left: 15px;
+}
+
+}
